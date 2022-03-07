@@ -20,7 +20,7 @@ LOCALVERSION = "-lts-5.10.y"
 KERNEL_SRC ?= "git://github.com/econote/linux-senzacarta.git;protocol=https"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
 
-SRCREV = "447692a9acd7d407f2fd0b6cc4a33ff5c5440bb7"
+SRCREV = "b18b690d91958c29159d5527f1f4fcb29abf1fdf"
 
 # PV is defined in the base in linux-imx.inc file and uses the LINUX_VERSION definition
 # required by kernel-yocto.bbclass.

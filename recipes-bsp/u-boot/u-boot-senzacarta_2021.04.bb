@@ -11,9 +11,9 @@ require u-boot-common.inc
 PROVIDES += "u-boot"
 
 UBOOT_SRC ?= "git://github.com/econote/u-boot-senzacarta.git;protocol=https"
-SRCBRANCH = "v2021.04"
+SRCBRANCH = "v202104"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
-SRCREV = "ba1d2a29685babb799088d8466aefa4b096f50b6"
+SRCREV = "96d5f330ba60154e7aa25bd944c6681492058e76"
 
 LOCALVERSION = "-${SRCBRANCH}"
 
