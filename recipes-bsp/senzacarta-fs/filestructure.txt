@@ -1,0 +1,39 @@
+File Hierarchy for SenzaCarta filesystem
+
+senzacarta-root
+|
+|-- home
+|	|
+|	`-- root
+|		|
+|		|-- Downloads (user downloaded files)
+|		|-- Documents (user created documents)
+|		`-- .local
+|			|
+|			|-- bin (executable files specific to the application)
+|			|-- lib
+|			|	|
+|			|	`-- senzacarta
+|			|		|
+|			|		|-- icons (icons for UI)
+|			|		`-- jar (main application in jar)
+|			`-- share
+|				|
+|				|-- reading	(ebooks, epubs, pdfs, notes along with the ebooks)
+|				|-- writing (notebooks in enb format)
+|				`-- sketching (sketchbooks in enb format)
+|
+|-- etc
+|	|
+|	`-- systemd
+|		|
+|		|-- system (service files)
+|		`-- network (netowrk configuration files)
+|
+|-- lib (integration libraries like jni in .so format)
+|
+`-- usr
+	|
+	|-- include
+	|-- sbin (userspace executables for all I/O peripherals)
+	`-- share (log files or configuration files for internal use)
